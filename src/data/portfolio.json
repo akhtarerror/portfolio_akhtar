@@ -29,7 +29,7 @@
     "description": "A responsive web application built with React that lets users create, view, search, archive, and delete notes. It uses React Router for client-side navigation, the Context API for global state such as theme and language, PropTypes for component validation, and Hooks for clean, reusable logic. Data is fetched asynchronously from a REST API, with loading and error states handled.",
     "tags": ["React.js", "REST API"],
     "image": "/portfolio/Mockup_Web_Notes.jpg",
-    "link": "https://fundamental-react-six.vercel.app/",
+    "link": "https://notes-app-seven-tan.vercel.app/",
     "featured": true
   }
 ]
