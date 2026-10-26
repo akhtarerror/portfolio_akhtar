@@ -20,5 +20,16 @@
     "image": "/portfolio/Mockup_Web_Tracking.jpg",
     "link": "https://github.com/akhtarerror/Winning_BS_Dashboard",
     "featured": true
+  },
+  {
+    "id": "03",
+    "title": "React Notes App",
+    "category": "Web Application",
+    "year": "2025",
+    "description": "A responsive web application built with React that lets users create, view, search, archive, and delete notes. It uses React Router for client-side navigation, the Context API for global state such as theme and language, PropTypes for component validation, and Hooks for clean, reusable logic. Data is fetched asynchronously from a REST API, with loading and error states handled.",
+    "tags": ["React.js", "REST API"],
+    "image": "/portfolio/Mockup_Web_Notes.jpg",
+    "link": "https://github.com/akhtarerror/fundamental_react",
+    "featured": true
   }
 ]
