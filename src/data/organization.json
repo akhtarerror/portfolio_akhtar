@@ -1,0 +1,37 @@
+[
+  {
+    "id": "o01",
+    "period": "Jan 2025 — Aug 2025",
+    "role": "Mentor of Android Division",
+    "company": "Sahabat PNJ",
+    "location": "Politeknik Negeri Jakarta",
+    "type": "Student Activity Unit",
+    "description": "Taught the fundamentals of Kotlin programming for Android development using Android Studio.",
+    "highlights": [
+      "Guided students in using Views (e.g., TextView, Button, EditText) to create and customize UI components in Android apps.",
+      "Explained View Binding for easier interaction between Kotlin code and XML layouts.",
+      "Demonstrated the use of Intent for navigating between Activities and passing data with Intent extras."
+    ],
+    "photos": [
+      "/experience/Certificate_Mentor.jpg"
+    ]
+  },
+  {
+    "id": "o02",
+    "period": "Feb 2024 — Sep 2024",
+    "role": "Head of Website Division",
+    "company": "Sahabat PNJ",
+    "location": "Politeknik Negeri Jakarta",
+    "type": "Student Activity Unit",
+    "description": "Led and supervised website development projects from planning to deployment.",
+    "highlights": [
+      "Mentored team members in HTML/CSS/Javascript, PHP, Git, and hosting.",
+      "Conducted technical training sessions to improve team skills and workflow efficiency.",
+      "Ensured project alignment with organizational goals through cross-division coordination.",
+      "Oversaw website maintenance to maintain performance, reliability, and security."
+    ],
+    "photos": [
+      "/experience/Certificate_Head.jpg"
+    ]
+  }
+]

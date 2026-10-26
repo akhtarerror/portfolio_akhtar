@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+:root {
+  /* base surfaces */
+  --cream: #fff6e9;
+  --paper: #ffffff;
+  --paper-tint: #fff1e0;
+
+  /* ink / text */
+  --ink: #211a35;
+  --muted: #6d6486;
+  --line: #ecdfc8;
+
+  /* accent palette — the "kombinasi warna" */
+  --blue: #3d5cff;
+  --coral: #ff6452;
+  --yellow: #ffc93c;
+  --mint: #10c79a;
+  --violet: #9b5de5;
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-jbmono);
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-paper: var(--paper);
+  --color-paper-tint: var(--paper-tint);
+
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+
+  --color-blue: var(--blue);
+  --color-coral: var(--coral);
+  --color-yellow: var(--yellow);
+  --color-mint: var(--mint);
+  --color-violet: var(--violet);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* subtle dot texture, kept light for the bright theme */
+.grain-bg {
+  background-image: radial-gradient(rgba(33, 26, 53, 0.14) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: -9px -9px;
+}
+
+/* ---------- shape system ---------- */
+/* blobs: organic asymmetric border-radius, used for sticker/backdrop accents */
+.shape-blob-1 {
+  border-radius: 63% 37% 54% 46% / 43% 39% 61% 57%;
+}
+.shape-blob-2 {
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+}
+.shape-blob-3 {
+  border-radius: 50% 50% 33% 67% / 55% 43% 57% 45%;
+}
+.shape-squircle {
+  border-radius: 38% 62% 42% 58% / 48% 40% 60% 52%;
+}
+.shape-circle {
+  border-radius: 50%;
+}
+.shape-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  border-radius: 18% / 10%;
+}
+.shape-diamond {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* ---------- catalog card (original model) ---------- */
+.catalog-card {
+  position: relative;
+  border: 1px dashed var(--line);
+  background: var(--paper);
+  border-radius: 0.375rem;
+  transition: border-color 0.25s ease, transform 0.25s ease, background 0.25s ease;
+}
+
+.catalog-card:hover {
+  border-color: var(--accent, var(--blue));
+  transform: translateY(-3px);
+}
+
+.catalog-stamp {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+.tab-active::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: -1px;
+  height: 3px;
+  border-radius: 3px;
+  background: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

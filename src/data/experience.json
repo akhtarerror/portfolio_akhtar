@@ -1,0 +1,60 @@
+[
+  {
+    "id": "w01",
+    "period": "Jan 2026 — Apr 2026",
+    "role": "Full-Stack Developer Facilitator",
+    "company": "Dicoding Indonesia",
+    "location": "Remote",
+    "type": "Contract",
+    "description": "Mentored learners in mastering React.js concepts, best practices, and modern front-end development techniques, guiding them through their Capstone Projects.",
+    "highlights": [
+      "Provided technical guidance and code reviews to help participants improve project quality and implementation.",
+      "Supported participants in completing their Capstone Projects, contributing to an 88% graduation rate, exceeding the 70% target by 18 percentage points.",
+      "Conducted 10 weekly consultation sessions and assisted with 10 ILT sessions, providing troubleshooting support and implementation recommendations.",
+      "Supported participants in solving technical challenges related to React.js, JavaScript, and web application development."
+    ],
+    "photos": [
+      "/experience/Offering_Dicoding.jpg",
+      "/experience/Certificate_Fasil.jpg",
+      "/experience/Contributor_Fasil.jpg"
+    ]
+  },
+  {
+    "id": "w02",
+    "period": "Aug 2025 — Jan 2026",
+    "role": "Developer",
+    "company": "Telkom Indonesia",
+    "location": "Onsite",
+    "type": "Internship",
+    "description": "Developed and maintained web applications using React.js, Vue.js, and Next.js to support various internal business processes.",
+    "highlights": [
+      "Designed and built dashboard systems integrated with Google Apps Script, Google Sheets, and Telegram Bots for automated reporting and real-time notifications",
+      "Developed a web-based attendance and leave management system featuring Face Recognition (Face-API.js) and Geolocation for identity and location verification",
+      "Implemented network-based access restrictions so the attendance system could only be accessed from the company's internal network",
+      "Collaborated with cross-functional teams to build user interfaces, integrate APIs, and improve system performance and usability"
+    ],
+    "photos": [
+      "/experience/Offering_Digistar.jpg",
+      "/experience/Certificate_Magenta.jpg"
+    ]
+  },
+  {
+    "id": "w03",
+    "period": "Aug 2025 — Oct 2025",
+    "role": "Developer Assistant",
+    "company": "Wish",
+    "location": "Remote",
+    "type": "Freelance",
+    "description": "Managed and integrated payment gateway solutions tailored for the Middle Eastern market.",
+    "highlights": [
+      "Contributed to the development and improvement of the company’s proprietary payment gateway system.",
+      "Collaborated with developers to identify technical requirements and ensure smooth project execution",
+      "Assisted in preparing detailed technical proposals and documentation for client presentations.",
+      "Collaborated with developers to identify technical requirements and ensure smooth project execution.",
+      "Supported the recruitment process by evaluating and recommending suitable developer candidates for ongoing projects."
+    ],
+    "photos": [
+      "/experience/Dashboard_Wish.png"
+    ]
+  }
+]

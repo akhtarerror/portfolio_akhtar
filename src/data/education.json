@@ -1,0 +1,37 @@
+[
+  {
+    "id": "e01",
+    "period": "Mar 2022 — Jul 2026",
+    "degree": "S1 Informatics Engineering",
+    "institution": "Politeknik Negeri Jakarta",
+    "location": "Jakarta, Indonesia",
+    "description": "Studying software engineering and web/mobile systems, with a GPA of 3.76. Coursework spans Android development, databases, and team-based Agile projects.",
+    "achievements": [
+      "GPA 3.75 / 4.00",
+      "Studied web application development, covering HTML, CSS, JavaScript, PHP, and Laravel for building dynamic and responsive web applications.",
+      "Gained experience with front-end and back-end development, including database integration using MySQL and PostgreSQL.",
+      "Studied programming fundamentals and software development using C++, object-oriented programming, data structures, and software engineering concepts.",
+      "Developed academic and team-based projects involving web development, database management, and application integration."
+    ],
+    "photos": [
+      "/education/SNMPTN.jpg"
+    ]
+  },
+   {
+    "id": "e02",
+    "period": "Sep 2024 — Jan 2025",
+    "degree": "Mobile Development Learning Path",
+    "institution": "Bangkit Academy",
+    "location": "Remote",
+    "description": "Studied Android application development using Kotlin and Android Studio.",
+    "achievements": [
+      "Developed modern Android user interfaces using Jetpack Compose and applied UI development principles.",
+      "Learned Android application architecture, component development, and best practices for building maintainable applications.",
+      "Studied software engineering, cloud computing, and soft skills as part of the Bangkit curriculum.",
+      "Collaborated in a team to design, develop, and deliver a real-world Android application as a Capstone Project."
+    ],
+    "photos": [
+      "/education/Certificate_MSIB.jpg"
+    ]
+  }
+]

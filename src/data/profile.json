@@ -1,0 +1,28 @@
+{
+  "name": "Akhtar Faizi Putra",
+  "role": "Full-Stack Developer",
+  "tagline": "Building clean, functional products for web and mobile — from React dashboards to Kotlin apps.",
+  "location": "Jakarta, Indonesia",
+  "email": "akhtarfaiziputra2003@gmail.com",
+  "phone": "",
+  "about": [
+    "Hi! I'm a versatile full-stack developer with hands-on experience across web and mobile application development. I enjoy turning ideas into real, working products — solving practical problems through clean code, thoughtful design, and a bit of machine learning along the way.",
+    "Over the past couple of years I've built dashboard systems, an attendance platform with face recognition and geolocation, and contributed to a proprietary payment gateway for the Middle Eastern market. I also spend time mentoring — guiding learners through React.js and Android development as a facilitator and division mentor.",
+    "Outside of building things, I like digging into technical documentation, exploring new frameworks, and helping teammates get unstuck on tricky bugs."
+  ],
+  "skills": [
+    "JavaScript / TypeScript",
+    "React.js & Next.js",
+    "Vue.js",
+    "Kotlin & Android Studio",
+    "Node.js & Laravel",
+    "MySQL / PostgreSQL",
+    "Git & GitHub",
+    "REST API Integration (Postman)"
+  ],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/akhtarerror" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/akhtarfaiziputra" },
+    { "label": "Website", "url": "https://akhtarerror.github.io" }
+  ]
+}

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fff6e9"/>
+  <path d="M120 90 C260 30 560 30 680 110 C760 170 760 420 660 500 C520 600 220 600 100 490 C10 400 10 160 120 90 Z" fill="#3d5cff" opacity="0.12"/>
+  <circle cx="640" cy="140" r="46" fill="#ffc93c" opacity="0.55"/>
+  <rect x="90" y="440" width="70" height="70" rx="16" fill="#ff6452" opacity="0.35" transform="rotate(8 125 475)"/>
+
+  <!-- phone / kiosk frame -->
+  <rect x="270" y="130" width="260" height="340" rx="28" fill="#ffffff" stroke="#211a35" stroke-width="3"/>
+  <rect x="292" y="164" width="216" height="230" rx="10" fill="#f4ecdd" stroke="#211a35" stroke-width="2"/>
+
+  <!-- face outline -->
+  <circle cx="400" cy="255" r="58" fill="none" stroke="#3d5cff" stroke-width="4"/>
+  <circle cx="380" cy="245" r="6" fill="#211a35"/>
+  <circle cx="420" cy="245" r="6" fill="#211a35"/>
+  <path d="M378 278 Q400 296 422 278" stroke="#211a35" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- scan corners -->
+  <path d="M330 200 v-20 h20" stroke="#10c79a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M470 200 v-20 h-20" stroke="#10c79a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M330 320 v20 h20" stroke="#10c79a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M470 320 v20 h-20" stroke="#10c79a" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- status bar -->
+  <rect x="316" y="360" width="168" height="16" rx="8" fill="#10c79a"/>
+  <rect x="316" y="384" width="110" height="12" rx="6" fill="#211a35" opacity="0.15"/>
+
+  <!-- location pin -->
+  <path d="M598 300 c0 34 -30 60 -30 92 c0 -32 -30 -58 -30 -92 a30 30 0 1 1 60 0 Z" fill="#ff6452"/>
+  <circle cx="568" cy="300" r="12" fill="#fff6e9"/>
+
+  <text x="400" y="540" text-anchor="middle" font-family="monospace" font-size="18" fill="#211a35" opacity="0.55">FACE + GEO VERIFICATION</text>
+</svg>

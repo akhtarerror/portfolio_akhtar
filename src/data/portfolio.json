@@ -1,0 +1,24 @@
+[
+  {
+    "id": "01",
+    "title": "Attendance & Leave Management System",
+    "category": "Web Application",
+    "year": "2026",
+    "description": "A web-based attendance and leave management system built during my internship at Telkom Indonesia, featuring Face Recognition (Face-API.js) and Geofancing for identity and location verification, restricted to the company's internal network.",
+    "tags": ["Next.js", "Face-API.js", "Geofancing"],
+    "image": "/portfolio/Mockup_Web_Absensi.jpg",
+    "link": "https://github.com/akhtarerror/absensi_bs",
+    "featured": true
+  },
+  {
+    "id": "02",
+    "title": "WinningBS Dashboard: Sales Pipeline & Account Manager Performance Tracker",
+    "category": "Web Application",
+    "year": "2025",
+    "description": "A web dashboard for tracking sales pipeline and account manager performance across the full funnel, from lead to billing complete. Built with Vue 3, Express, and MySQL.",
+    "tags": ["Vue.js", "Node.js", "Chart.js"],
+    "image": "/portfolio/Mockup_Web_Tracking.jpg",
+    "link": "https://github.com/akhtarerror/Winning_BS_Dashboard",
+    "featured": true
+  }
+]
