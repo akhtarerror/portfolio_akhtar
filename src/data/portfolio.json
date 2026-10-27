@@ -18,7 +18,7 @@
     "description": "A web dashboard for tracking sales pipeline and account manager performance across the full funnel, from lead to billing complete. Built with Vue 3, Express, and MySQL.",
     "tags": ["Vue.js", "Node.js", "Chart.js"],
     "image": "/portfolio/Mockup_Web_Tracking.jpg",
-    "link": "https://github.com/akhtarerror/Winning_BS_Dashboard",
+    "link": "https://winning-bs-dashboard-1coz.vercel.app/",
     "featured": true
   },
   {
