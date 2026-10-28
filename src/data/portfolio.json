@@ -31,5 +31,16 @@
     "image": "/portfolio/Mockup_Web_Notes.jpg",
     "link": "https://notes-app-seven-tan.vercel.app/",
     "featured": true
+  },
+  {
+    "id": "04",
+    "title": "UX Case Study: Online Music & Podcast Streaming App (most straightforward and safe)",
+    "category": "UI/UX Design",
+    "year": "2025",
+    "description": "An end-to-end UX case study for a music and podcast streaming app with offline mode, personalization, and transcripts, designed to solve problems with internet dependency, intrusive ads, and inaccurate recommendations.",
+    "tags": ["Google Slides", "Figma", "Maze"],
+    "image": "/portfolio/UX_Aplikasi_Musik_Streaming.png",
+    "link": "https://docs.google.com/presentation/d/1vlGbVS6ULa8StJ1JYcFXqLytOJPlIcRSxgxMvzbulAE/edit?usp=sharing/",
+    "featured": true
   }
 ]
