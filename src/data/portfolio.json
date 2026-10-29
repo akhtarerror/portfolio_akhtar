@@ -5,7 +5,7 @@
     "category": "Web Application",
     "year": "2026",
     "description": "A web-based attendance and leave management system built during my internship at Telkom Indonesia, featuring Face Recognition (Face-API.js) and Geofancing for identity and location verification, restricted to the company's internal network.",
-    "tags": ["Next.js", "Face-API.js", "Geofancing"],
+    "tags": ["Next.js", "Face-API.js", "Geofancing", "Supabase"],
     "image": "/portfolio/Mockup_Web_Absensi.jpg",
     "link": "https://absensi-bs.vercel.app/",
     "featured": true
@@ -16,7 +16,7 @@
     "category": "Web Application",
     "year": "2025",
     "description": "A web dashboard for tracking sales pipeline and account manager performance across the full funnel, from lead to billing complete. Built with Vue 3, Express, and MySQL.",
-    "tags": ["Vue.js", "Node.js", "Chart.js"],
+    "tags": ["Vue.js", "Node.js", "Chart.js", "Supabase"],
     "image": "/portfolio/Mockup_Web_Tracking.jpg",
     "link": "https://winning-bs-dashboard-1coz.vercel.app/",
     "featured": true
@@ -27,7 +27,7 @@
     "category": "Web Application",
     "year": "2025",
     "description": "A responsive web application built with React that lets users create, view, search, archive, and delete notes. It uses React Router for client-side navigation, the Context API for global state such as theme and language, PropTypes for component validation, and Hooks for clean, reusable logic. Data is fetched asynchronously from a REST API, with loading and error states handled.",
-    "tags": ["React.js", "REST API"],
+    "tags": ["React.js", "REST API", "Supabase"],
     "image": "/portfolio/Mockup_Web_Notes.jpg",
     "link": "https://notes-app-seven-tan.vercel.app/",
     "featured": true
@@ -41,6 +41,17 @@
     "tags": ["Google Slides", "Figma", "Maze"],
     "image": "/portfolio/UX_Aplikasi_Musik_Streaming.png",
     "link": "https://docs.google.com/presentation/d/1vlGbVS6ULa8StJ1JYcFXqLytOJPlIcRSxgxMvzbulAE/edit?usp=sharing/",
+    "featured": true
+  },
+    {
+    "id": "05",
+    "title": "Smart Notes — A Markdown Note-Taking App with Reminders and Version History",
+    "category": "Web Application",
+    "year": "2026",
+    "description": "Smart Notes is a web-based note-taking application built with Laravel. Users can create and organize notes with tags, track tasks using interactive checklists, and set email reminders so nothing gets forgotten. Every edit is saved as a revision, so earlier versions of a note can be viewed and restored at any time. Notes can be exported to PDF or Markdown. Accounts are protected with email verification codes, rate-limited login attempts, and per-user data isolation. The app runs locally with MySQL and can be deployed to Vercel with a Postgres database (Neon) and scheduled cron jobs for reminders.",
+    "tags": ["Laravel", "EasyMDE 2.18", "SMTP", "Neon"],
+    "image": "/portfolio/Mockup_Web_Akhtar_Notes.jpg",
+    "link": "https://akhtarnotesapp.vercel.app/",
     "featured": true
   }
 ]

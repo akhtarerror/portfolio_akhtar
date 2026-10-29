@@ -88,13 +88,15 @@ export default function Home() {
             </p>
             <p className="mt-2 font-display text-xl text-ink">Quick Overview</p>
           </div>
-          <div className="flex flex-col gap-1 border-t border-line pt-4 sm:border-l sm:border-t-0 sm:pl-6 sm:pt-0">
-            <span className="font-mono text-[11px] uppercase tracking-widest text-mint">Email</span>
-            <span className="text-sm text-ink">{profile.email}</span>
+         <div className="flex flex-col gap-1 border-t border-line pt-4 sm:border-l sm:border-t-0 sm:pl-6 sm:pt-0">
+          <span className="font-mono text-[11px] uppercase tracking-widest text-mint">Email</span>
+            <a href="mailto:akhtarfaiziputra2003@gmail.com" className="text-sm text-ink">
+              {profile.email}
+            </a>
           </div>
           <div className="flex flex-col gap-1 border-t border-line pt-4 sm:border-l sm:border-t-0 sm:pl-6 sm:pt-0">
             <span className="font-mono text-[11px] uppercase tracking-widest text-coral">Core Skills</span>
-            <span className="text-sm text-ink">{profile.skills.slice(0, 3).join(", ")}</span>
+            <span className="text-sm text-ink">{profile.skills.slice(0, 5).join(", ")}</span>
           </div>
         </div>
       </section>

@@ -12,10 +12,12 @@
   ],
   "skills": [
     "JavaScript / TypeScript",
-    "React.js & Next.js",
+    "Next.js",
     "Vue.js",
+    "React.js",
+    "Node.js",
     "Kotlin & Android Studio",
-    "Node.js & Laravel",
+    "Laravel",
     "MySQL / PostgreSQL",
     "Git & GitHub",
     "REST API Integration (Postman)"
@@ -23,6 +25,6 @@
   "socials": [
     { "label": "GitHub", "url": "https://github.com/akhtarerror" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/akhtarfaiziputra" },
-    { "label": "Website", "url": "https://akhtarerror.github.io" }
+    { "label": "Website", "url": "https://portfolio-akhtar.vercel.app" }
   ]
 }
